@@ -1,1 +1,0 @@
--wto "01f8425da7184b7593e30e94a57490ef" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "Nbitdec_behav" "xil_defaultlib.Nbitdec" -log "elaborate.log" 

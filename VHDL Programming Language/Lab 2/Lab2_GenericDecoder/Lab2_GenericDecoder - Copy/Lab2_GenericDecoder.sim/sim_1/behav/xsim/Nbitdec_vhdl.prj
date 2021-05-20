@@ -1,7 +1,0 @@
-# compile vhdl design source files
-vhdl xil_defaultlib  \
-"../../../../Lab2_GenericDecoder.srcs/sources_1/new/dec2x4.vhd" \
-"../../../../Lab2_GenericDecoder.srcs/sources_1/new/Nbitdec.vhd" \
-
-# Do not sort compile order
-nosort

@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../BCD_AU.srcs/sources_1/new/BinaryToBCD.vhd" \
+"../../../../BCD_AU.srcs/sim_1/new/BinaryToBCD_TB.vhd" \
+
+# Do not sort compile order
+nosort

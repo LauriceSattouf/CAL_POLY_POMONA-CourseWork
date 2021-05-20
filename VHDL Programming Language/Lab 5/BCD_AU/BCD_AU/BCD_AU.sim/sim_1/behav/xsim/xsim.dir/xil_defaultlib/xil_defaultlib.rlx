@@ -1,0 +1,18 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+D:/School/Spring 21/VHDL_ECE4304/Code/BCD_AU/BCD_AU.srcs/sim_1/new/AU_TB.vhd,1615758771,vhdl,,,,au_tb,,,,,,,,
+D:/School/Spring 21/VHDL_ECE4304/Code/BCD_AU/BCD_AU.srcs/sim_1/new/BinaryToBCD_TB.vhd,1615685854,vhdl,,,,binarytobcd_tb,,,,,,,,
+D:/School/Spring 21/VHDL_ECE4304/Code/BCD_AU/BCD_AU.srcs/sim_1/new/NBitCnt_TB.vhd,1615882912,vhdl,,,,nbitcnt_tb,,,,,,,,
+D:/School/Spring 21/VHDL_ECE4304/Code/BCD_AU/BCD_AU.srcs/sim_1/new/SevenSegCtrl_TB.vhd,1615883137,vhdl,,,,sevensegctrl_tb,,,,,,,,
+D:/School/Spring 21/VHDL_ECE4304/Code/BCD_AU/BCD_AU.srcs/sim_1/new/top_TB.vhd,1615884651,vhdl,,,,top_tb,,,,,,,,
+D:/School/Spring 21/VHDL_ECE4304/Code/BCD_AU/BCD_AU.srcs/sources_1/new/AU.vhd,1615868371,vhdl,,,,au,,,,,,,,
+D:/School/Spring 21/VHDL_ECE4304/Code/BCD_AU/BCD_AU.srcs/sources_1/new/BinaryToBCD.vhd,1615687047,vhdl,,,,binarytobcd,,,,,,,,
+D:/School/Spring 21/VHDL_ECE4304/Code/BCD_AU/BCD_AU.srcs/sources_1/new/ClkDivider.vhd,1615883248,vhdl,,,,clkdivider,,,,,,,,
+D:/School/Spring 21/VHDL_ECE4304/Code/BCD_AU/BCD_AU.srcs/sources_1/new/DecodeUpCnt.vhd,1615874504,vhdl,,,,decodeupcnt,,,,,,,,
+D:/School/Spring 21/VHDL_ECE4304/Code/BCD_AU/BCD_AU.srcs/sources_1/new/FourBitTo7Seg.vhd,1615874780,vhdl,,,,fourbitto7seg,,,,,,,,
+D:/School/Spring 21/VHDL_ECE4304/Code/BCD_AU/BCD_AU.srcs/sources_1/new/Mux7Seg.vhd,1615881957,vhdl,,,,mux7seg,,,,,,,,
+D:/School/Spring 21/VHDL_ECE4304/Code/BCD_AU/BCD_AU.srcs/sources_1/new/NBitCounter.vhd,1615882773,vhdl,,,,nbitcounter,,,,,,,,
+D:/School/Spring 21/VHDL_ECE4304/Code/BCD_AU/BCD_AU.srcs/sources_1/new/SevenSegCtrl.vhd,1615879506,vhdl,,,,sevensegctrl,,,,,,,,
+D:/School/Spring 21/VHDL_ECE4304/Code/BCD_AU/BCD_AU.srcs/sources_1/new/top.vhd,1615884507,vhdl,,,,top,,,,,,,,

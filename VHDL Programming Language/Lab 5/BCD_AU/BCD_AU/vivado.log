@@ -1,0 +1,163 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Mar 16 18:41:55 2021
+# Process ID: 6684
+# Current directory: C:/Users/Lauri/Downloads/BCD_AU/BCD_AU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10844 C:\Users\Lauri\Downloads\BCD_AU\BCD_AU\BCD_AU.xpr
+# Log file: C:/Users/Lauri/Downloads/BCD_AU/BCD_AU/vivado.log
+# Journal file: C:/Users/Lauri/Downloads/BCD_AU/BCD_AU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Lauri/Downloads/BCD_AU/BCD_AU/BCD_AU.xpr
+INFO: [Project 1-313] Project file moved from 'D:/School/Spring 21/VHDL_ECE4304/Code/BCD_AU' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [Project 1-230] Project 'BCD_AU.xpr' upgraded for this version of Vivado.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:08 . Memory (MB): peak = 1088.844 ; gain = 0.000
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: top
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1556.180 ; gain = 229.273
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'top' [C:/Users/Lauri/Downloads/BCD_AU/BCD_AU/BCD_AU.srcs/sources_1/new/top.vhd:51]
+	Parameter top_N_inp bound to: 4 - type: integer 
+	Parameter top_N_seg7 bound to: 2 - type: integer 
+	Parameter top_DIV bound to: 250000 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/Users/Lauri/Downloads/BCD_AU/BCD_AU/BCD_AU.srcs/sources_1/new/top.vhd:115]
+INFO: [Synth 8-226] default block is never used [C:/Users/Lauri/Downloads/BCD_AU/BCD_AU/BCD_AU.srcs/sources_1/new/top.vhd:124]
+	Parameter N bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'AU' declared at 'C:/Users/Lauri/Downloads/BCD_AU/BCD_AU/BCD_AU.srcs/sources_1/new/AU.vhd:34' bound to instance 'AUGEN' of component 'AU' [C:/Users/Lauri/Downloads/BCD_AU/BCD_AU/BCD_AU.srcs/sources_1/new/top.vhd:132]
+INFO: [Synth 8-638] synthesizing module 'AU' [C:/Users/Lauri/Downloads/BCD_AU/BCD_AU/BCD_AU.srcs/sources_1/new/AU.vhd:44]
+	Parameter N bound to: 4 - type: integer 
+WARNING: [Synth 8-614] signal 'inp_1_int' is read in the process but is not in the sensitivity list [C:/Users/Lauri/Downloads/BCD_AU/BCD_AU/BCD_AU.srcs/sources_1/new/AU.vhd:55]
+WARNING: [Synth 8-614] signal 'inp_2_int' is read in the process but is not in the sensitivity list [C:/Users/Lauri/Downloads/BCD_AU/BCD_AU/BCD_AU.srcs/sources_1/new/AU.vhd:55]
+INFO: [Synth 8-256] done synthesizing module 'AU' (1#1) [C:/Users/Lauri/Downloads/BCD_AU/BCD_AU/BCD_AU.srcs/sources_1/new/AU.vhd:44]
+	Parameter N7 bound to: 2 - type: integer 
+	Parameter DIV7 bound to: 250000 - type: integer 
+INFO: [Synth 8-3491] module 'SevenSegCtrl' declared at 'C:/Users/Lauri/Downloads/BCD_AU/BCD_AU/BCD_AU.srcs/sources_1/new/SevenSegCtrl.vhd:34' bound to instance 'SEG7GEN' of component 'SevenSegCtrl' [C:/Users/Lauri/Downloads/BCD_AU/BCD_AU/BCD_AU.srcs/sources_1/new/top.vhd:149]
+INFO: [Synth 8-638] synthesizing module 'SevenSegCtrl' [C:/Users/Lauri/Downloads/BCD_AU/BCD_AU/BCD_AU.srcs/sources_1/new/SevenSegCtrl.vhd:49]
+	Parameter N7 bound to: 2 - type: integer 
+	Parameter DIV7 bound to: 250000 - type: integer 
+	Parameter div bound to: 250000 - type: integer 
+INFO: [Synth 8-3491] module 'ClkDivider' declared at 'C:/Users/Lauri/Downloads/BCD_AU/BCD_AU/BCD_AU.srcs/sources_1/new/ClkDivider.vhd:34' bound to instance 'CLKDIV' of component 'ClkDivider' [C:/Users/Lauri/Downloads/BCD_AU/BCD_AU/BCD_AU.srcs/sources_1/new/SevenSegCtrl.vhd:104]
+INFO: [Synth 8-638] synthesizing module 'ClkDivider' [C:/Users/Lauri/Downloads/BCD_AU/BCD_AU/BCD_AU.srcs/sources_1/new/ClkDivider.vhd:43]
+	Parameter div bound to: 250000 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'ClkDivider' (2#1) [C:/Users/Lauri/Downloads/BCD_AU/BCD_AU/BCD_AU.srcs/sources_1/new/ClkDivider.vhd:43]
+	Parameter N bound to: 2 - type: integer 
+INFO: [Synth 8-3491] module 'NBitCounter' declared at 'C:/Users/Lauri/Downloads/BCD_AU/BCD_AU/BCD_AU.srcs/sources_1/new/NBitCounter.vhd:34' bound to instance 'CNTGEN' of component 'NBitCounter' [C:/Users/Lauri/Downloads/BCD_AU/BCD_AU/BCD_AU.srcs/sources_1/new/SevenSegCtrl.vhd:112]
+INFO: [Synth 8-638] synthesizing module 'NBitCounter' [C:/Users/Lauri/Downloads/BCD_AU/BCD_AU/BCD_AU.srcs/sources_1/new/NBitCounter.vhd:43]
+	Parameter N bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'NBitCounter' (3#1) [C:/Users/Lauri/Downloads/BCD_AU/BCD_AU/BCD_AU.srcs/sources_1/new/NBitCounter.vhd:43]
+	Parameter MUXN bound to: 2 - type: integer 
+INFO: [Synth 8-3491] module 'Mux7Seg' declared at 'C:/Users/Lauri/Downloads/BCD_AU/BCD_AU/BCD_AU.srcs/sources_1/new/Mux7Seg.vhd:34' bound to instance 'MUXGEN' of component 'Mux7Seg' [C:/Users/Lauri/Downloads/BCD_AU/BCD_AU/BCD_AU.srcs/sources_1/new/SevenSegCtrl.vhd:120]
+INFO: [Synth 8-638] synthesizing module 'Mux7Seg' [C:/Users/Lauri/Downloads/BCD_AU/BCD_AU/BCD_AU.srcs/sources_1/new/Mux7Seg.vhd:46]
+	Parameter MUXN bound to: 2 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/Users/Lauri/Downloads/BCD_AU/BCD_AU/BCD_AU.srcs/sources_1/new/Mux7Seg.vhd:52]
+WARNING: [Synth 8-614] signal 'digit_3' is read in the process but is not in the sensitivity list [C:/Users/Lauri/Downloads/BCD_AU/BCD_AU/BCD_AU.srcs/sources_1/new/Mux7Seg.vhd:50]
+WARNING: [Synth 8-614] signal 'digit_4' is read in the process but is not in the sensitivity list [C:/Users/Lauri/Downloads/BCD_AU/BCD_AU/BCD_AU.srcs/sources_1/new/Mux7Seg.vhd:50]
+INFO: [Synth 8-256] done synthesizing module 'Mux7Seg' (4#1) [C:/Users/Lauri/Downloads/BCD_AU/BCD_AU/BCD_AU.srcs/sources_1/new/Mux7Seg.vhd:46]
+	Parameter DECN bound to: 2 - type: integer 
+INFO: [Synth 8-3491] module 'DecodeUpCnt' declared at 'C:/Users/Lauri/Downloads/BCD_AU/BCD_AU/BCD_AU.srcs/sources_1/new/DecodeUpCnt.vhd:34' bound to instance 'DECGEN' of component 'DecodeUpCnt' [C:/Users/Lauri/Downloads/BCD_AU/BCD_AU/BCD_AU.srcs/sources_1/new/SevenSegCtrl.vhd:131]
+INFO: [Synth 8-638] synthesizing module 'DecodeUpCnt' [C:/Users/Lauri/Downloads/BCD_AU/BCD_AU/BCD_AU.srcs/sources_1/new/DecodeUpCnt.vhd:42]
+	Parameter DECN bound to: 2 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/Users/Lauri/Downloads/BCD_AU/BCD_AU/BCD_AU.srcs/sources_1/new/DecodeUpCnt.vhd:48]
+INFO: [Synth 8-256] done synthesizing module 'DecodeUpCnt' (5#1) [C:/Users/Lauri/Downloads/BCD_AU/BCD_AU/BCD_AU.srcs/sources_1/new/DecodeUpCnt.vhd:42]
+INFO: [Synth 8-3491] module 'FourBitTo7Seg' declared at 'C:/Users/Lauri/Downloads/BCD_AU/BCD_AU/BCD_AU.srcs/sources_1/new/FourBitTo7Seg.vhd:34' bound to instance 'DIGITCONV' of component 'FourBitTo7Seg' [C:/Users/Lauri/Downloads/BCD_AU/BCD_AU/BCD_AU.srcs/sources_1/new/SevenSegCtrl.vhd:138]
+INFO: [Synth 8-638] synthesizing module 'FourBitTo7Seg' [C:/Users/Lauri/Downloads/BCD_AU/BCD_AU/BCD_AU.srcs/sources_1/new/FourBitTo7Seg.vhd:41]
+INFO: [Synth 8-226] default block is never used [C:/Users/Lauri/Downloads/BCD_AU/BCD_AU/BCD_AU.srcs/sources_1/new/FourBitTo7Seg.vhd:47]
+INFO: [Synth 8-256] done synthesizing module 'FourBitTo7Seg' (6#1) [C:/Users/Lauri/Downloads/BCD_AU/BCD_AU/BCD_AU.srcs/sources_1/new/FourBitTo7Seg.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'SevenSegCtrl' (7#1) [C:/Users/Lauri/Downloads/BCD_AU/BCD_AU/BCD_AU.srcs/sources_1/new/SevenSegCtrl.vhd:49]
+INFO: [Synth 8-3491] module 'BinaryToBCD' declared at 'C:/Users/Lauri/Downloads/BCD_AU/BCD_AU/BCD_AU.srcs/sources_1/new/BinaryToBCD.vhd:34' bound to instance 'BCDCONV_A' of component 'BinaryToBCD' [C:/Users/Lauri/Downloads/BCD_AU/BCD_AU/BCD_AU.srcs/sources_1/new/top.vhd:162]
+INFO: [Synth 8-638] synthesizing module 'BinaryToBCD' [C:/Users/Lauri/Downloads/BCD_AU/BCD_AU/BCD_AU.srcs/sources_1/new/BinaryToBCD.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'BinaryToBCD' (8#1) [C:/Users/Lauri/Downloads/BCD_AU/BCD_AU/BCD_AU.srcs/sources_1/new/BinaryToBCD.vhd:44]
+INFO: [Synth 8-3491] module 'BinaryToBCD' declared at 'C:/Users/Lauri/Downloads/BCD_AU/BCD_AU/BCD_AU.srcs/sources_1/new/BinaryToBCD.vhd:34' bound to instance 'BCDCONV_B' of component 'BinaryToBCD' [C:/Users/Lauri/Downloads/BCD_AU/BCD_AU/BCD_AU.srcs/sources_1/new/top.vhd:171]
+INFO: [Synth 8-256] done synthesizing module 'top' (9#1) [C:/Users/Lauri/Downloads/BCD_AU/BCD_AU/BCD_AU.srcs/sources_1/new/top.vhd:51]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1609.887 ; gain = 282.980
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1609.887 ; gain = 282.980
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1609.887 ; gain = 282.980
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1609.887 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Lauri/Downloads/BCD_AU/BCD_AU/Nexys-A7-100T-Master.xdc]
+Finished Parsing XDC File [C:/Users/Lauri/Downloads/BCD_AU/BCD_AU/Nexys-A7-100T-Master.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1709.383 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:19 ; elapsed = 00:00:11 . Memory (MB): peak = 1847.859 ; gain = 520.953
+35 Infos, 4 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:25 ; elapsed = 00:00:17 . Memory (MB): peak = 1847.859 ; gain = 759.016
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+[Tue Mar 16 19:05:20 2021] Launched synth_1...
+Run output will be captured here: C:/Users/Lauri/Downloads/BCD_AU/BCD_AU/BCD_AU.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 6
+[Tue Mar 16 19:10:40 2021] Launched impl_1...
+Run output will be captured here: C:/Users/Lauri/Downloads/BCD_AU/BCD_AU/BCD_AU.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Tue Mar 16 19:13:20 2021] Launched impl_1...
+Run output will be captured here: C:/Users/Lauri/Downloads/BCD_AU/BCD_AU/BCD_AU.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2020.2
+  **** Build date : Nov 18 2020 at 10:01:48
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2020.2
+  ****** Build date   : Nov 03 2020-13:02:56
+    **** Build number : 2020.2.1604437376
+      ** Copyright 2017-2020 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:02 ; elapsed = 00:00:28 . Memory (MB): peak = 1900.121 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292AD33D4A
+set_property PROGRAM.FILE {C:/Users/Lauri/Downloads/BCD_AU/BCD_AU/BCD_AU.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/Lauri/Downloads/BCD_AU/BCD_AU/BCD_AU.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw_manager
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Mar 16 20:41:52 2021...

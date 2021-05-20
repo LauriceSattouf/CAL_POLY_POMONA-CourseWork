@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Mar  1 22:28:14 2021
+# Process ID: 3944
+# Current directory: C:/Users/Lauri/Desktop/Spring2021/4304VHDL/Labs/Lab_4_VHDL4304
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19524 C:\Users\Lauri\Desktop\Spring2021\4304VHDL\Labs\Lab_4_VHDL4304\Lab_4_VHDL4304.xpr
+# Log file: C:/Users/Lauri/Desktop/Spring2021/4304VHDL/Labs/Lab_4_VHDL4304/vivado.log
+# Journal file: C:/Users/Lauri/Desktop/Spring2021/4304VHDL/Labs/Lab_4_VHDL4304\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Lauri/Desktop/Spring2021/4304VHDL/Labs/Lab_4_VHDL4304/Lab_4_VHDL4304.xpr
+update_compile_order -fileset sources_1

@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Feb 24 11:07:56 2021
+# Process ID: 21432
+# Current directory: C:/Users/Lauri/Desktop/Spring2021/4304VHDL/Labs/Lab3/Lab3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13636 C:\Users\Lauri\Desktop\Spring2021\4304VHDL\Labs\Lab3\Lab3\Lab3.xpr
+# Log file: C:/Users/Lauri/Desktop/Spring2021/4304VHDL/Labs/Lab3/Lab3/vivado.log
+# Journal file: C:/Users/Lauri/Desktop/Spring2021/4304VHDL/Labs/Lab3/Lab3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Lauri/Desktop/Spring2021/4304VHDL/Labs/Lab3/Lab3/Lab3.xpr
+update_compile_order -fileset sources_1
+close [ open C:/Users/Lauri/Desktop/Spring2021/4304VHDL/Labs/Lab3/Lab3/Lab3.srcs/sources_1/new/Time_Muxing2x1.vhd w ]
+add_files C:/Users/Lauri/Desktop/Spring2021/4304VHDL/Labs/Lab3/Lab3/Lab3.srcs/sources_1/new/Time_Muxing2x1.vhd
+update_compile_order -fileset sources_1

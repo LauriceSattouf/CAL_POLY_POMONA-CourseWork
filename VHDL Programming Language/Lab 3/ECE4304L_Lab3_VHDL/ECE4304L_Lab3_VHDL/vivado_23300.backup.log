@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Mar  3 13:33:39 2021
+# Process ID: 23300
+# Current directory: C:/Users/Lauri/Downloads/ECE4304L_Lab3_VHDL/ECE4304L_Lab3_VHDL
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8364 C:\Users\Lauri\Downloads\ECE4304L_Lab3_VHDL\ECE4304L_Lab3_VHDL\ECE4304L_Lab3_VHDL.xpr
+# Log file: C:/Users/Lauri/Downloads/ECE4304L_Lab3_VHDL/ECE4304L_Lab3_VHDL/vivado.log
+# Journal file: C:/Users/Lauri/Downloads/ECE4304L_Lab3_VHDL/ECE4304L_Lab3_VHDL\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Lauri/Downloads/ECE4304L_Lab3_VHDL/ECE4304L_Lab3_VHDL/ECE4304L_Lab3_VHDL.xpr
+INFO: [Project 1-313] Project file moved from 'D:/Documents/workspace/CPP_Schoolworks/ECE4304L/ECE4304L_Lab3/ECE4304L_Lab3_VHDL' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [Project 1-230] Project 'ECE4304L_Lab3_VHDL.xpr' upgraded for this version of Vivado.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:07 . Memory (MB): peak = 1105.871 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Mar  3 14:09:32 2021...

@@ -1,0 +1,15 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../BCD_AU.srcs/sources_1/new/AU.vhd" \
+"../../../../BCD_AU.srcs/sources_1/new/BinaryToBCD.vhd" \
+"../../../../BCD_AU.srcs/sources_1/new/ClkDivider.vhd" \
+"../../../../BCD_AU.srcs/sources_1/new/DecodeUpCnt.vhd" \
+"../../../../BCD_AU.srcs/sources_1/new/FourBitTo7Seg.vhd" \
+"../../../../BCD_AU.srcs/sources_1/new/Mux7Seg.vhd" \
+"../../../../BCD_AU.srcs/sources_1/new/NBitCounter.vhd" \
+"../../../../BCD_AU.srcs/sources_1/new/SevenSegCtrl.vhd" \
+"../../../../BCD_AU.srcs/sources_1/new/top.vhd" \
+"../../../../BCD_AU.srcs/sim_1/new/top_TB.vhd" \
+
+# Do not sort compile order
+nosort

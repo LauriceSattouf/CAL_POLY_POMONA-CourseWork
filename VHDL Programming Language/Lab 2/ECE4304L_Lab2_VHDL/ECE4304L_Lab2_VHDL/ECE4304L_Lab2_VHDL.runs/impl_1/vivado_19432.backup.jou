@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Feb 15 23:55:07 2021
+# Process ID: 19432
+# Current directory: C:/Users/Lauri/Desktop/Spring2021/4304VHDL/Labs/Lab2/ECE4304L_Lab2_VHDL/ECE4304L_Lab2_VHDL/ECE4304L_Lab2_VHDL.runs/impl_1
+# Command line: vivado.exe -log Nbitdec.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Nbitdec.tcl -notrace
+# Log file: C:/Users/Lauri/Desktop/Spring2021/4304VHDL/Labs/Lab2/ECE4304L_Lab2_VHDL/ECE4304L_Lab2_VHDL/ECE4304L_Lab2_VHDL.runs/impl_1/Nbitdec.vdi
+# Journal file: C:/Users/Lauri/Desktop/Spring2021/4304VHDL/Labs/Lab2/ECE4304L_Lab2_VHDL/ECE4304L_Lab2_VHDL/ECE4304L_Lab2_VHDL.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source Nbitdec.tcl -notrace

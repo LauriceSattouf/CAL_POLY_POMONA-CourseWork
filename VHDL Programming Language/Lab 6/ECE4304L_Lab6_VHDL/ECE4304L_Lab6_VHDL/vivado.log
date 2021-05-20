@@ -1,0 +1,121 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Mar 24 14:32:56 2021
+# Process ID: 1304
+# Current directory: C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12944 C:\Users\Lauri\Downloads\ECE4304L_Lab6_VHDL\ECE4304L_Lab6_VHDL\ECE4304L_Lab6_VHDL.xpr
+# Log file: C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/vivado.log
+# Journal file: C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.xpr
+INFO: [Project 1-313] Project file moved from 'D:/Documents/workspace/CPP_Schoolworks/ECE4304L/ECE4304L_Lab6/ECE4304L_Lab6_VHDL' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [Project 1-230] Project 'ECE4304L_Lab6_VHDL.xpr' upgraded for this version of Vivado.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:06 . Memory (MB): peak = 1102.113 ; gain = 0.000
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: top
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1551.984 ; gain = 239.199
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'top' [C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/top.vhd:50]
+	Parameter top_N_inp bound to: 8 - type: integer 
+	Parameter top_CLKDIV bound to: 13 - type: integer 
+	Parameter N bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'barrel' declared at 'C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/barrel.vhd:35' bound to instance 'BARRELGEN' of component 'barrel' [C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/top.vhd:88]
+INFO: [Synth 8-638] synthesizing module 'barrel' [C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/barrel.vhd:47]
+	Parameter N bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'mux2x1' declared at 'C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/mux2x1.vhd:34' bound to instance 'MUXGEN_L' of component 'mux2x1' [C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/barrel.vhd:82]
+INFO: [Synth 8-638] synthesizing module 'mux2x1' [C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/mux2x1.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'mux2x1' (1#1) [C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/mux2x1.vhd:43]
+INFO: [Synth 8-3491] module 'mux2x1' declared at 'C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/mux2x1.vhd:34' bound to instance 'MUXGEN_L' of component 'mux2x1' [C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/barrel.vhd:82]
+INFO: [Synth 8-3491] module 'mux2x1' declared at 'C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/mux2x1.vhd:34' bound to instance 'MUXGEN_L' of component 'mux2x1' [C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/barrel.vhd:82]
+INFO: [Synth 8-3491] module 'mux2x1' declared at 'C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/mux2x1.vhd:34' bound to instance 'MUXGEN_L' of component 'mux2x1' [C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/barrel.vhd:82]
+INFO: [Synth 8-3491] module 'mux2x1' declared at 'C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/mux2x1.vhd:34' bound to instance 'MUXGEN_L' of component 'mux2x1' [C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/barrel.vhd:82]
+INFO: [Synth 8-3491] module 'mux2x1' declared at 'C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/mux2x1.vhd:34' bound to instance 'MUXGEN_L' of component 'mux2x1' [C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/barrel.vhd:82]
+INFO: [Synth 8-3491] module 'mux2x1' declared at 'C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/mux2x1.vhd:34' bound to instance 'MUXGEN_L' of component 'mux2x1' [C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/barrel.vhd:82]
+INFO: [Synth 8-3491] module 'mux2x1' declared at 'C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/mux2x1.vhd:34' bound to instance 'MUXGEN_L' of component 'mux2x1' [C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/barrel.vhd:82]
+INFO: [Synth 8-3491] module 'mux2x1' declared at 'C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/mux2x1.vhd:34' bound to instance 'MUXGEN_L' of component 'mux2x1' [C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/barrel.vhd:82]
+INFO: [Synth 8-3491] module 'mux2x1' declared at 'C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/mux2x1.vhd:34' bound to instance 'MUXGEN_L' of component 'mux2x1' [C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/barrel.vhd:82]
+INFO: [Synth 8-3491] module 'mux2x1' declared at 'C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/mux2x1.vhd:34' bound to instance 'MUXGEN_L' of component 'mux2x1' [C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/barrel.vhd:82]
+INFO: [Synth 8-3491] module 'mux2x1' declared at 'C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/mux2x1.vhd:34' bound to instance 'MUXGEN_L' of component 'mux2x1' [C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/barrel.vhd:82]
+INFO: [Synth 8-3491] module 'mux2x1' declared at 'C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/mux2x1.vhd:34' bound to instance 'MUXGEN_L' of component 'mux2x1' [C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/barrel.vhd:82]
+INFO: [Synth 8-3491] module 'mux2x1' declared at 'C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/mux2x1.vhd:34' bound to instance 'MUXGEN_L' of component 'mux2x1' [C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/barrel.vhd:82]
+INFO: [Synth 8-3491] module 'mux2x1' declared at 'C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/mux2x1.vhd:34' bound to instance 'MUXGEN_L' of component 'mux2x1' [C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/barrel.vhd:82]
+INFO: [Synth 8-3491] module 'mux2x1' declared at 'C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/mux2x1.vhd:34' bound to instance 'MUXGEN_L' of component 'mux2x1' [C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/barrel.vhd:82]
+INFO: [Synth 8-3491] module 'mux2x1' declared at 'C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/mux2x1.vhd:34' bound to instance 'MUXGEN_L' of component 'mux2x1' [C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/barrel.vhd:82]
+INFO: [Synth 8-3491] module 'mux2x1' declared at 'C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/mux2x1.vhd:34' bound to instance 'MUXGEN_L' of component 'mux2x1' [C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/barrel.vhd:82]
+INFO: [Synth 8-3491] module 'mux2x1' declared at 'C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/mux2x1.vhd:34' bound to instance 'MUXGEN_L' of component 'mux2x1' [C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/barrel.vhd:82]
+INFO: [Synth 8-3491] module 'mux2x1' declared at 'C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/mux2x1.vhd:34' bound to instance 'MUXGEN_L' of component 'mux2x1' [C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/barrel.vhd:82]
+INFO: [Synth 8-3491] module 'mux2x1' declared at 'C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/mux2x1.vhd:34' bound to instance 'MUXGEN_L' of component 'mux2x1' [C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/barrel.vhd:82]
+INFO: [Synth 8-3491] module 'mux2x1' declared at 'C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/mux2x1.vhd:34' bound to instance 'MUXGEN_L' of component 'mux2x1' [C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/barrel.vhd:82]
+INFO: [Synth 8-3491] module 'mux2x1' declared at 'C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/mux2x1.vhd:34' bound to instance 'MUXGEN_L' of component 'mux2x1' [C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/barrel.vhd:82]
+INFO: [Synth 8-3491] module 'mux2x1' declared at 'C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/mux2x1.vhd:34' bound to instance 'MUXGEN_L' of component 'mux2x1' [C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/barrel.vhd:82]
+INFO: [Synth 8-226] default block is never used [C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/barrel.vhd:97]
+INFO: [Synth 8-256] done synthesizing module 'barrel' (2#1) [C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/barrel.vhd:47]
+	Parameter CLKDIV bound to: 13 - type: integer 
+INFO: [Synth 8-3491] module 'ctrl7seg' declared at 'C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/ctrl7seg.vhd:34' bound to instance 'C7S' of component 'ctrl7seg' [C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/top.vhd:97]
+INFO: [Synth 8-638] synthesizing module 'ctrl7seg' [C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/ctrl7seg.vhd:54]
+	Parameter CLKDIV bound to: 13 - type: integer 
+	Parameter N bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'muxNbits8x1' declared at 'C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/muxNbits8x1.vhd:34' bound to instance 'MUX' of component 'muxNbits8x1' [C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/ctrl7seg.vhd:98]
+INFO: [Synth 8-638] synthesizing module 'muxNbits8x1' [C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/muxNbits8x1.vhd:50]
+	Parameter N bound to: 4 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/muxNbits8x1.vhd:56]
+INFO: [Synth 8-256] done synthesizing module 'muxNbits8x1' (3#1) [C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/muxNbits8x1.vhd:50]
+INFO: [Synth 8-3491] module 'decoder8bit' declared at 'C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/decoder8bit.vhd:37' bound to instance 'DEC' of component 'decoder8bit' [C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/ctrl7seg.vhd:114]
+INFO: [Synth 8-638] synthesizing module 'decoder8bit' [C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/decoder8bit.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'decoder8bit' (4#1) [C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/decoder8bit.vhd:44]
+	Parameter WIDTH bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'upcounter' declared at 'C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/upcounter.vhd:37' bound to instance 'CNT' of component 'upcounter' [C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/ctrl7seg.vhd:121]
+INFO: [Synth 8-638] synthesizing module 'upcounter' [C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/upcounter.vhd:44]
+	Parameter WIDTH bound to: 16 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'upcounter' (5#1) [C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/upcounter.vhd:44]
+INFO: [Synth 8-3491] module 'hex7seg' declared at 'C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/hex7seg.vhd:34' bound to instance 'H7S' of component 'hex7seg' [C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/ctrl7seg.vhd:130]
+INFO: [Synth 8-638] synthesizing module 'hex7seg' [C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/hex7seg.vhd:39]
+INFO: [Synth 8-226] default block is never used [C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/hex7seg.vhd:45]
+INFO: [Synth 8-256] done synthesizing module 'hex7seg' (6#1) [C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/hex7seg.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'ctrl7seg' (7#1) [C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/ctrl7seg.vhd:54]
+INFO: [Synth 8-256] done synthesizing module 'top' (8#1) [C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/sources_1/new/top.vhd:50]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1606.320 ; gain = 293.535
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1606.320 ; gain = 293.535
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1606.320 ; gain = 293.535
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1606.320 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/constrs_1/imports/ECE4304L/Nexys-A7-100T.xdc]
+Finished Parsing XDC File [C:/Users/Lauri/Downloads/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL/ECE4304L_Lab6_VHDL.srcs/constrs_1/imports/ECE4304L/Nexys-A7-100T.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1694.898 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:16 ; elapsed = 00:00:09 . Memory (MB): peak = 1823.750 ; gain = 510.965
+52 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:21 ; elapsed = 00:00:14 . Memory (MB): peak = 1823.750 ; gain = 721.637
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Mar 24 16:51:13 2021...

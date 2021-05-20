@@ -1,0 +1,97 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Feb 15 22:50:49 2021
+# Process ID: 16572
+# Current directory: C:/Users/Lauri/Desktop/Spring2021/4304VHDL/Labs/Lab2/ECE4304L_Lab2_VHDL/ECE4304L_Lab2_VHDL
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1328 C:\Users\Lauri\Desktop\Spring2021\4304VHDL\Labs\Lab2\ECE4304L_Lab2_VHDL\ECE4304L_Lab2_VHDL\ECE4304L_Lab2_VHDL.xpr
+# Log file: C:/Users/Lauri/Desktop/Spring2021/4304VHDL/Labs/Lab2/ECE4304L_Lab2_VHDL/ECE4304L_Lab2_VHDL/vivado.log
+# Journal file: C:/Users/Lauri/Desktop/Spring2021/4304VHDL/Labs/Lab2/ECE4304L_Lab2_VHDL/ECE4304L_Lab2_VHDL\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Lauri/Desktop/Spring2021/4304VHDL/Labs/Lab2/ECE4304L_Lab2_VHDL/ECE4304L_Lab2_VHDL/ECE4304L_Lab2_VHDL.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/Lauri/Desktop/Spring2021/4304VHDL/Labs/Lab2/ECE4304L_Lab2_VHDL/ECE4304L_Lab2_VHDL'
+INFO: [Project 1-313] Project file moved from 'D:/Documents/workspace/CPP_Schoolworks/ECE4304L/ECE4304L_Lab2/ECE4304L_Lab2_VHDL' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [Project 1-230] Project 'ECE4304L_Lab2_VHDL.xpr' upgraded for this version of Vivado.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:05 . Memory (MB): peak = 1088.906 ; gain = 0.000
+update_compile_order -fileset sources_1
+copy_run -name impl_1_copy_1 [get_runs impl_1] -parent_run synth_1
+impl_1_copy_1
+set_property target_language VHDL [current_project]
+set_property simulator_language VHDL [current_project]
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a100tcsg324-1
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1341.039 ; gain = 0.000
+INFO: [Project 1-479] Netlist was created with Vivado 2019.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1421.715 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:15 ; elapsed = 00:00:09 . Memory (MB): peak = 1555.320 ; gain = 466.414
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+[Mon Feb 15 23:54:20 2021] Launched synth_1...
+Run output will be captured here: C:/Users/Lauri/Desktop/Spring2021/4304VHDL/Labs/Lab2/ECE4304L_Lab2_VHDL/ECE4304L_Lab2_VHDL/ECE4304L_Lab2_VHDL.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 6
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Mon Feb 15 23:55:00 2021] Launched impl_1...
+Run output will be captured here: C:/Users/Lauri/Desktop/Spring2021/4304VHDL/Labs/Lab2/ECE4304L_Lab2_VHDL/ECE4304L_Lab2_VHDL/ECE4304L_Lab2_VHDL.runs/impl_1/runme.log
+close_design
+open_run impl_1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1606.234 ; gain = 0.000
+INFO: [Project 1-479] Netlist was created with Vivado 2020.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.030 . Memory (MB): peak = 1606.234 ; gain = 0.000
+Restored from archive | CPU: 1.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.030 . Memory (MB): peak = 1606.234 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1914.168 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a100tcsg324-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2067.125 ; gain = 0.000
+INFO: [Project 1-479] Netlist was created with Vivado 2020.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2141.895 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Tue Feb 16 00:13:22 2021] Launched impl_1...
+Run output will be captured here: C:/Users/Lauri/Desktop/Spring2021/4304VHDL/Labs/Lab2/ECE4304L_Lab2_VHDL/ECE4304L_Lab2_VHDL/ECE4304L_Lab2_VHDL.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+[Tue Feb 16 00:17:16 2021] Launched synth_1...
+Run output will be captured here: C:/Users/Lauri/Desktop/Spring2021/4304VHDL/Labs/Lab2/ECE4304L_Lab2_VHDL/ECE4304L_Lab2_VHDL/ECE4304L_Lab2_VHDL.runs/synth_1/runme.log
+close_design
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a100tcsg324-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2250.910 ; gain = 0.000
+INFO: [Project 1-479] Netlist was created with Vivado 2020.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2250.910 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Feb 16 00:41:01 2021...

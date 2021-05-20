@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Feb  9 20:46:21 2021
+# Process ID: 6460
+# Current directory: C:/Users/Lauri/Desktop/Spring2021/4304VHDL/Labs/mux_Nx1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5044 C:\Users\Lauri\Desktop\Spring2021\4304VHDL\Labs\mux_Nx1\mux_Nx1.xpr
+# Log file: C:/Users/Lauri/Desktop/Spring2021/4304VHDL/Labs/mux_Nx1/vivado.log
+# Journal file: C:/Users/Lauri/Desktop/Spring2021/4304VHDL/Labs/mux_Nx1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Lauri/Desktop/Spring2021/4304VHDL/Labs/mux_Nx1/mux_Nx1.xpr
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+copy_run -name synth_1_copy_1 [get_runs synth_1] 
+set_property target_language VHDL [current_project]
+set_property simulator_language VHDL [current_project]
+launch_simulation
+source muxNx1_TB_TEXTIO.tcl
+close_sim

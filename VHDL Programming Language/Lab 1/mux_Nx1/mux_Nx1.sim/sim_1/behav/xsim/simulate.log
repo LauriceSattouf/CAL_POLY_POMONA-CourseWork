@@ -1,0 +1,7 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+ERROR: File C:\Users\Lauri\Desktop\Spring2021\4304VHDL\Labs\mux_Nx1\input.txt is not open. Cannot call endfile on it
+Time: 0 ps  Iteration: 0  Process: /muxNx1_TB_TEXTIO/TEXTIO_GEN
+  File: C:/Users/Lauri/Desktop/Spring2021/4304VHDL/Labs/mux_Nx1/mux_Nx1.srcs/sim_1/new/muxNx1_TB_TEXTIO_A.vhd
+
+HDL Line: C:/Users/Lauri/Desktop/Spring2021/4304VHDL/Labs/mux_Nx1/mux_Nx1.srcs/sim_1/new/muxNx1_TB_TEXTIO_A.vhd:53
